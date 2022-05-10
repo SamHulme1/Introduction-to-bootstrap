@@ -8,13 +8,28 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
 </head>
 <body>
-    <article class="container">
+    <nav class="navbar navbar-light bg-light navbar-expand-sm">
+        <a href="/" class="navbar-brand">Whiskey Drop</a>
+        <ul class="navbar-nav mr-auto">
+            <li class="active nav-item mr-2"> <a class="nav-link" href="/">Home</a></li>
+            <li class="nav-item mr-2"> <a class="nav-link" href="/about">About</a></li>
+            <li class="nav-item mr-2 d-block d-sm-none"> <a class="nav-link" href="/login">Sign in / Sign up</a></li>
+        </ul>
+    <div class="d-none d-md-block">
+        <p class="navbar-text my-auto mr-2"><i>Great Whiskey Delivered to Your Door!</i></p>
+        <a href="/login">Sign in / Sign up</a>
+    </div>
+
+    </nav>
+    <article class="container mt-3">
     <!--Call out-->
     <div class="row">
         <div class="col-12">
-            <section class="callout">
+            <section class="callout jumbotron text-center">
                 <h1>The finest whiskey delivered to your doorstep.</h1>
-                <p class="lead">Sign up today to start recieving the worlds best whiskey every month.<s> £19.99</s> <strong><mark>First ones on us!</mark></strong></p>
+                <p class="lead">Sign up today to start recieving the worlds best whiskey every month.<s class="d-none d-sm-inline"> £19.99</s> 
+                    <span class="d-inline d-sm-none"><br></span>
+                    <strong><mark>First ones on us!</mark></strong></p>
                 <p class="text-muted"><small>You must be over 18 to use our service, please drink responsibly. </small></p>
                 <button class="text-uppercase btn btn-success btn-lg">Sign up here!</button>
             </section>
@@ -23,7 +38,7 @@
         <!--/Call out-->
         <hr>
         <!--Quotes-->
-        <section class="quotes">
+        <section class="quotes my-5">
             <div class="row">
                 <div class="col-12">
                     <h2 class="text-uppercase">Quotes:</h2>
@@ -47,28 +62,28 @@
         <!--/Quotes-->
         <hr>
         <!--Features-->
-        <section class="features">
+        <section class="features my-5">
         <div class="row">
             <div class="col-12">
             <h2 class="text-uppercase">Features:</h2>
             </div>
         </div>
         <div class="row">
-            <div class="col-12"> 
+            <div class="col-12 col-md-6 col-lg-4"> 
             <div class="feature">
                 <h3>Feature</h3>
                 <p>placeholder text here</p>
                 <p><a class="btn btn-sm btn-light" href="">Read More</a></p>
             </div>
             </div>
-            <div class="col-12"> 
+            <div class="col-12 col-md-6 col-lg-4"> 
             <div class="features">
                 <h3>Feature</h3>
                 <p>Placeholder text here</p>
                 <p><a class="btn btn-sm btn-light" href="">Read More</a></p>
             </div>
             </div>
-            <div class="col-12"> 
+            <div class="col-12 d-md-none d-lg-block col-lg-4"> 
             <div class="features">
                 <h3>Feature</h3>
                 <p>Placeholder text here</p>
