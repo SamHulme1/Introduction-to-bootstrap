@@ -1,0 +1,43 @@
+body {
+    font-family: 'Roboto Mono', monospace;
+}
+
+
+.features-container {
+
+}
+
+.alert-container {
+
+}
+
+.call-out-container {
+    height: 100vh;
+    background: url("images/whiskey.jpg") no-repeat bottom right fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  
+
+}
+
+quotes-container {
+
+}
+
+/* Jumbotron */
+.jumbotron {
+    background-color: transparent;
+}
+
+.jumbotron-header {
+    color: white;
+    font-weight: bold;
+    margin-bottom: 30px;
+
+}
