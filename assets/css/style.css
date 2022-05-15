@@ -1,13 +1,9 @@
 body {
     font-family: 'Roboto Mono', monospace;
 }
-
-
-.features-container {
-
-}
-
-.alert-container {
+.alert-container .col-12 {
+    padding-left: 0;
+    padding-right: 0;
 
 }
 
@@ -44,10 +40,15 @@ quotes-container {
     background-color: transparent;
 }
 
-.jumbotron-header {
+.jumbotron h1 {
     color: white;
     font-weight:bolder;
-    margin-bottom: 30px;
+    margin-bottom: 0px;
+    color: white;
+    margin-top: 200px;
+    
+    
+    
 
 }
 
@@ -62,13 +63,13 @@ quotes-container {
 .jumbotron .lead {
     margin: 25px 0;
     color: white;
-    font-weight: bolder;
 }
 /* Block dividers*/
 .block-divider {
     width: 75px;
     height: 5px;
     border: 0;
+    background-color: #444;
     
 
 }
@@ -79,8 +80,12 @@ quotes-container {
 
 .block-divider-short {
     width:35px;
+
 }
 
+.block-divider-white {
+    background-color: white;
+}
 /* Buttons*/
 
 .btn-cta {
@@ -103,3 +108,104 @@ quotes-container {
     border-color: #efbe8c;
 
 }
+
+/*NavBar */
+
+.navalert-container {
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding-left: 0;
+    padding-right: 0;
+    z-index: 1;
+}
+
+.navbar {
+    margin-bottom: 0; 
+    border: 0; 
+    width: 100%;
+    background-color: rgba(227, 224, 221, 0.15);
+}
+
+.navbar .navbar-toggler {
+    border: 0;
+}
+
+.navbar-brand {
+    font-weight: bolder;
+}
+
+.navbar .navbar-nav a{
+    font-weight: bolder;
+
+}
+
+.site-wide-alert {
+    color: #544600;
+    background-color: #efbe8c;
+    border-color: #efbe8c;
+    padding: 5px 15px;
+    margin-bottom: 0;
+    border: 1px solid transparent;
+    border-radius: 0;
+}
+
+/* page headers */
+
+.page-header{
+    margin-bottom: 0;
+    border-bottom: 0;
+    text-align: center;
+}
+
+.pager-header h2 {
+    margin-top: 0;
+}
+
+.quotes .page-header {
+    margin-bottom: 25px;
+}
+
+/*Content-containers */
+
+.content-container{
+    padding-top:75px;
+    padding-bottom: 75px;
+}
+
+.container-wrapper {
+
+}
+
+.container-wrapper-red{
+    background-color: #f05f40;
+    color: white;
+
+}
+
+/*features */
+
+.feature {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.feature i {
+    margin-bottom: 20px;
+    font-size: 45px;
+    line-height: 45px;
+}
+
+.feature .btn {
+    background-color: white;
+    border-color: white; 
+    border-radius: 15px;
+    min-width: 100px;
+    font-weight: bold;
+    margin-top: 10px; 
+    color:#f05f40;
+}
+
+.nav-item {
+    line-height: 45px;
+} 
